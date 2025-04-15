@@ -18,3 +18,26 @@ ul{
      width: 100%;
      margin: 0 auto;
 }
+
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    ul{
+        display: flex;
+        gap: 20px;
+        color: white;
+    }
+}
+
+.logo{
+    font-size: 20px;
+    color: white;
+    font-weight: 700   ;
+}
+
+nav{
+    background: dodgerblue;
+}
